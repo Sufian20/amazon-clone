@@ -1,8 +1,14 @@
 import './App.css';
+import Header from './conponents/Header/Header';
+import Home from './conponents/Home/Home';
+
 function App() {
   return (
     <div className="app">
-      <h1>I acpect the amazon clone chalenge</h1>
+      {/*HEADR */}
+      <Header />
+      <Home />
+     
     </div>
   );
 }
