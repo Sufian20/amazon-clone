@@ -9,28 +9,52 @@ const Home = () => {
                 <img className="home__image" src="https://m.media-amazon.com/images/I/61CiqVTRBEL._SX3000_.jpg" alt="" />
 
                 <div className="home__row">
-                    <Product id="321" title="Easy returns" price={10.99} rating={4} image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg" />
+                    <Product
+                        id="321"
+                        title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
+                        price={10.99}
+                        rating={4}
+                        image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+                    />
 
-                    <Product id="322" title="The lean startup" price={19.99} rating={5} 
-                    image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Returns_1x._SY304_CB432774714_.jpg" />
+                    <Product
+                        id="322"
+                        title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl" price={19.99} rating={5}
+                        image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+                    />
 
 
                     {/* Product */}
                 </div>
                 <div className="home__row">
-                    <Product id="323" title="Oculus" price={79.99} rating={5} 
-                    image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Dash_Oculus_1x._SY304_CB667158353_.jpg" />
+                    <Product
+                        id="323" title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+                        price={79.99}
+                        rating={5}
+                        image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+                    />
 
-                    <Product id="324" title="Shop Laptops & Tablets" price={100.00} rating={5} 
-                    image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Laptops_379x304_1X_en_US._SY304_CB418608471_.jpg" />
+                    <Product
+                        id="324" title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
+                        price={100.00}
+                        rating={5}
+                        image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+                    />
 
-                    <Product id="325" title="Explore home bedding" price={65.80} rating={4} 
-                    image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_HomeBedding_Single_Cat_1x._SY304_CB418596953_.jpg" />
+                    <Product
+                        id="325" title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+                        price={65.80}
+                        rating={4}
+                        image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+                    />
                 </div>
                 <div className="home__row">
-                    <Product id="326" title="BTCL 40-inch 1080p Smart LED Roku TV 
-                " price={77.80} rating={5} 
-                image="https://m.media-amazon.com/images/I/81hXnnQz6TL._AC_UY218_.jpg" />
+                    <Product
+                        id="326" title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440
+                        " price={77.80}
+                        rating={5}
+                        image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+                    />
                 </div>
             </div>
         </div>
