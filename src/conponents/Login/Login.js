@@ -9,7 +9,7 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } f
 import { useHistory } from 'react-router-dom';
 
 
-const app = initializeApp(firebaseConfig);
+const app =   initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 const Login = () => {
